@@ -1,0 +1,9 @@
+2019-09-03 18:15:07 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "STRINGDECODE('\u0e45') (SHOW: ""SHOW_ID"" BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."SHOW"("SHOW_ID","NAME","ORGANIZER","SHOW_TYPE")VALUES(?,?,?,?) -- (?1, ?2, ?3, ?4) [22018-199]
+2019-09-03 18:15:07 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "STRINGDECODE('\u0e45') (SHOW: ""SHOW_ID"" BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."SHOW"("SHOW_ID","NAME","ORGANIZER","SHOW_TYPE")VALUES(?,?,?,?) -- (?1, ?2, ?3, ?4) [22018-199]
+2019-09-03 18:18:36 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE TABLE[*] CUSTOMER "; expected "identifier"; SQL statement:
+delete table customer [42001-199]

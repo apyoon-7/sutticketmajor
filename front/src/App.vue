@@ -1,0 +1,28 @@
+<template>
+  <v-app>
+    <v-app-bar app>
+      <v-toolbar-title class="headline text-uppercase">
+        <span>Vuetify</span>
+        <span class="font-weight-light">MATERIAL DESIGN</span>
+      </v-toolbar-title>
+      <v-spacer></v-spacer>
+      <router-link to="/">Home</router-link>&nbsp; &nbsp;
+      <router-link to="/ticketbooking">Booking a Ticket</router-link>&nbsp; &nbsp;
+      <router-link to="/viewticketbooking">View Ticket Booking</router-link>
+      <v-btn text href="https://github.com/vuetifyjs/vuetify/releases/latest" target="_blank">
+        <span class="mr-2">PONTEP THAWEESUP</span>
+      </v-btn>
+    </v-app-bar>
+
+    <v-content>
+      <router-view></router-view>
+    </v-content>
+  </v-app>
+</template>
+
+<script>
+
+export default {
+  name: "App"
+};
+</script>
